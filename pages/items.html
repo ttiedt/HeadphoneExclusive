@@ -42,6 +42,7 @@
       </div>
       <div class="col-md-7">
         <h1 class="text-white">AKG K712</h1>
+        <h5 id="rating-text" class="text-white">Rating: 4.7/5</h5>
         <h4 class="text-white">A powerful set of high-end open-back studio headphones</h4>
         <ul class="text-white">
           <li>Over-ear design maximum wearing comfort for long work sessions</li>
@@ -57,7 +58,11 @@
       </div>
     </div>
 
-
+<script>
+  var randomRating = Math.random() * 5;
+  randomRating = randomRating.toFixed(2);
+  document.getElementById("rating-text").innerHTML = "Rating: " + randomRating + "/5";
+</script>
 
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
