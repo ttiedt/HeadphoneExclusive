@@ -1,0 +1,330 @@
+html {
+	--font: 'Open Sans Condensed', sans-serif;
+	--second-color: #800000;
+}
+body {
+	background-image: url(../images/bg.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+	margin: 0px;
+}
+
+.headerimg {
+  margin-bottom: 5px;
+}
+
+.headerimg img {
+  width: 100%;
+}
+
+@media(min-width:750px){
+	section {
+		display: flex;
+		align-items: stretch;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+    border-radius: 10px;
+	}
+}
+
+section {
+  border-radius: 10px;
+  width: 90%;
+  margin-left: 5%;
+	margin-right: 5%;
+}
+
+article {
+	flex-basis: 27%;
+	background-color: #222;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+article img {
+	height: 60%;
+	width: 100%;
+	border-radius: 10px;
+}
+
+div.mybutton {
+	font-family: var(--font);
+	flex-basis: 27%;
+	margin-top: 5px;
+ }
+
+div.mybutton a {
+	background: var(--second-color);
+	color: #fff;
+	bottom: 5px;
+	padding: 15px 32px;
+	text-align: center;
+  display: inline-block;
+	font-size: 18px;
+	font-family: var(--font);
+	border-radius: 15px;
+} 
+
+/*Helpful classes
+==================================================*/
+.center{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.indent {
+	text-indent: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Content
+================================================== */
+/* .desktop {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: block;
+	font-family: var(--font);
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;	
+  border-radius: 25px;
+} */
+
+/*Style for main
+==================================================*/
+/* header {
+	margin-bottom: 5px;
+}
+
+header img {
+	width: 100%;
+	border-radius: 10px;
+}
+nav {
+  width: 84%;
+  margin-left: 8%;
+	margin-right: 8%;
+  padding: 5px;
+  top: 0px;
+  font-size: 18pt;
+  border-radius: 0px 0px 5px 5px;
+  font-family: var(--font);
+  font-weight: bold;
+  background-color: #111;
+  color: #fff;
+  display: block;
+  position: fixed;
+
+}
+
+p {
+	font-family: var(--font);
+	color: #fff;
+}
+
+a {
+	font-family: var(--font);
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline; 
+}
+
+@media(min-width:750px){
+	section {
+		display: flex;
+		align-items: stretch;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		background-color: #333;	
+    border-radius: 10px;
+	}
+}
+section {
+	background-color: #333;	
+  border-radius: 10px;
+  width: 90%;
+  margin-left: 5%;
+	margin-right: 5%;
+}
+
+article {
+	flex-basis: 27%;
+	background-color: #222;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+article img {
+	height: 60%;
+	width: 100%;
+	border-radius: 10px;
+}
+
+div.button {
+	font-family: var(--font);
+	flex-basis: 27%;
+	margin-top: 5px;
+ }
+
+div.button a {
+	background: var(--second-color);
+	color: #fff;
+	bottom: 5px;
+	padding: 15px 32px;
+	text-align: center;
+  display: inline-block;
+	font-size: 18px;
+	font-family: var(--font);
+	border-radius: 15px;
+} */
+
+/*SlideShow
+==================================================*/
+/* .mySlides {
+  display: none;
+  margin-bottom: 5px;
+}
+.slideshow-container img {
+	vertical-align: middle;
+	height: 300px;
+  border-radius: 10px;
+  width: 100%;
+} */
+
+/* Slideshow container */
+/* .slideshow-container {
+  max-width: 90%;
+	margin: auto;
+	box-sizing: border-box;
+} */
+
+/* Caption text */
+
+
+/* The dots/bullets/indicators */
+/* .dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} */
+
+/* On smaller screens, decrease text size */
+/* @media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+} */
+
+/*product page
+==================================================*/
+/* #product {
+  background-color: #333;	
+  border-radius: 10px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow: auto;
+  padding: 5px;
+}
+
+#product img {
+  float: left;
+  width: 50%;
+  height: 50%;
+  padding-right: 5px;
+}
+
+.productscroll {
+  display: inline;
+  width: 50%;
+} */
+
+/*Helpful classes
+==================================================*/
+/* .center{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.indent {
+	text-indent: 2em;
+} */
